@@ -6,7 +6,11 @@
     font-family: 'Oxygen', sans-serif;
 }
 
-/*Mobile - no grid*/
+/*
+ *
+ *Mobile
+ *
+ */
 @media only screen and (min-width: 0px) {
 
     body {
@@ -150,7 +154,11 @@
     }
 }
 
-/*Tablet - no grid, larger fonts. Featured work: 3 columns*/
+/*
+ *
+ Tablet
+ *
+ */
 @media only screen and (min-width: 500px) {
 
     /*Main content*/
@@ -191,7 +199,11 @@
     }
 }
 
-/*Minor breakpoint*/
+/*
+ *
+ Minor breakpoint
+ *
+ */
 @media only screen and (min-width: 650px) and (max-width: 1022px) {
 
     body {
@@ -200,7 +212,11 @@
     }
 }
 
-/*Desktop - Flexbox*/
+/*
+ *
+ Desktop
+ *
+ */
 @media only screen and (min-width: 1022px) {
 
     body {
@@ -245,17 +261,13 @@
         font-weight: 400;
     }
 
-    /*Test*/
+    /*Main content*/
     .main-aside-container {
         display: flex;
         flex-direction: row;
         width: 100%;
     }
 
-
-
-
-    /*Main content*/
     main {
         order: 2;
         margin: 0 20px;
@@ -295,7 +307,9 @@
     /*Footer*/
     footer {
         width: 100%;
+        max-width: 855px;
         height: 150px;
+        margin: 0 20px;
     }
 
     footer p {
